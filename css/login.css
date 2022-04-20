@@ -1,0 +1,50 @@
+.login{
+    height: 100%;
+    border: 1px solid rgb(196, 3, 164);
+    display: flex;
+    flex-direction: row;    
+}
+.loginForm{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(red, rgb(0, 0, 0));
+    color: black;
+}
+#cadastro{
+    color: black;
+    font-size: 24px;
+}
+.bannerLogin{
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.loginFormWrapper{
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.loginFormWrapper button{
+    width: 100%;
+    margin-top: 10px;
+}
+.loginTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
